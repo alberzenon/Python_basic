@@ -1,0 +1,67 @@
+PYTHON NOTAS 
+
+Operadores de pertenecias
+  in
+  not in
+under method
+
+
+dir(platzi)   nos dice todos los metodos que podemos utilizar
+
+help()
+
+>>> def my_func():
+...     """ Este es un texto de ayuda de como utilizar esta funcion"""
+...     pass
+... 
+
+
+Help on function my_func in module __main__:
+
+my_func()
+    Este es un texto de ayuda de como utilizar esta funcion
+(END)
+
+
+slices en python : python tiene una de las sintaxis mas poderosas para manipular secuencias se llaman slices 
+secuencia[comienzo:final:pasos]
+
+my_name = 'David'
+my_name[0]
+my_name[-1]
+my_name[0:3]
+my_name[::2]
+
+
+FOR LOOPS  permiten ciclar a lo largo de un asecuencia 
+se usa cuando se quiere ejecutar un conjunto de instrucciones varias veces
+
+tambien llamado iteration
+
+for i in range(1000)
+   print(i)
+
+
+   While Loop
+   Similar a For Loop
+
+   while n> 0
+         print(n)
+         n-=1
+
+         la condicion tiene que ser falza para parar 
+
+LISTAS en PYTHON
+estructuras de datos  Agrupar de distintas maneras varios valores, 
+[2,5,6]
+['colombia', 'Mexico', 'Argentina']
+['tacos',3,'Arepas',6,'Chorizo',9]
+
+my_list= [1,2,3]
+my_list[2]
+
+las Listas son mutables
+Strings son inmutables
+
+
+Diccionarios  Asociacion entre llaves y valores  similar a la lista sabiendo que se puede acceder a travez de un indice
